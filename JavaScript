@@ -1,0 +1,9 @@
+document.getElementById("enviar").addEventListener("click" ,validaformulario )
+
+function validaformulario(){
+  if(document.getElementById("nome").value !=  "" && document.getElementById("email").value != ""){
+    alert("enviado!")
+  }else{
+    alert("Por favor, preencha o campo do nome e email!")
+  }
+}
